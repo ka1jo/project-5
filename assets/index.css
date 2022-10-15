@@ -1,0 +1,160 @@
+body{
+    background: white;
+    margin: 0 auto;
+    padding: 0;
+}
+.main{
+    background-color:rgb(55,81,126);
+    width: 100%;
+    height: 1200px;
+    float: left;
+}
+.navbar{
+    background-color: orange;
+    width: 100%;
+    height: 60px;
+    float: left;
+}
+.menu{
+    width: 75%;
+    height: inherit;
+    background-color: rgb(55,81,126);
+    float: left;
+    color: white;
+}
+.logo{
+    width:25%;
+    height: inherit;
+    background-color: rgb(55,81,126);
+    float: left;
+}
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+.menu ul li{
+    float: left;
+    list-style-type: none;
+    padding: 8px;
+    margin: 15px 43px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.menu ul li:hover{
+    cursor: pointer;
+    color: rgb(1, 11, 17);
+    transition: 0.5s;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    float: left;
+}
+.border{
+    border: 2px solid rgb(70,175,225);
+    border-radius: 20px;
+}
+.main::before{
+    content: "Better Solution For Your Business";
+    width: 550px;
+    height: 200px;
+    background: firebrick
+    float: left;
+    position: absolute;
+    left: 100px;
+    top: 250px;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 900;
+    color: white;
+}
+.main::after{
+    content: "We are team of talanted designers making websites with Boostrap";
+    width: 550px;
+    height: 200px;
+    background: firebrick
+    float: left;
+    position: absolute;
+    left: 100px;
+    top: 350px;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: 2000;
+    color: white;
+    opacity: 30%;
+}
+.button{
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    z-index: 999;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: poppins;
+    font-weight: 400;
+    border: 8px solid rgb(71,178,229);
+    border-radius: 25px;
+    background: rgb(71,178,229);
+    color: white;
+}
+.button:hover{
+    box-shadow: 0 5px 50px 0 rgb(71,178,229) inset,0 5px 50px 0 rgb(71,178,229),
+    0 5px 50px 0 rgb(71,178,229) inset,0 5px 50px 0 rgb(71,178,229);
+    box-shadow: 0 0 5px rgb(71,178,229);
+    transition: 0.2s;
+}
+.btn{
+    position: absolute;
+    top: 500px;
+    left: 210px;
+    z-index: 99999;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: poppins;
+    font-weight: 400;
+    border: 8px solid transparent;
+    border-radius: 25px;
+    background: transparent;
+    color: white;
+}
+.btn:hover{
+    box-shadow: 0 5px 50px 0 rgb(71,178,229) inset,0 5px 50px 0 rgb(71,178,229),
+        0 5px 50px 0 rgb(71,178,229) inset,0 5px 50px 0 rgb(71,178,229);
+    box-shadow: 0 0 5px rgb(71,178,229);
+    transition: 0.2s;
+}
+.main img{
+    position: absolute;
+    top: 100px;
+    left: 900px;
+    z-index: 9999999999999;
+}
+.footer::after{
+    content: "About us";
+    position: absolute;
+    width: 100;
+    height: 70px;
+    color: rgb(175, 184, 202);
+    left: 840px;
+    top: 1150px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.footer img{
+    width: 100px;
+    height: 50px;
+    margin: 9px 60px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    float: left;
+    padding-left: 90px;
+}
